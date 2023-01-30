@@ -1,0 +1,219 @@
+body {
+            font-family: "Open Sans", sans-serif;
+            color: #4d4643;
+            margin: 0;
+        }
+        .search-form form {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 3px 10px;
+            position: relative;
+            border-radius: 4px;
+        }
+        .search-form form input[type="text"] {
+            border: 0;
+            padding: 4px;
+            width: calc(100% - 40px);
+        }
+        .search-form form button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            border: 0;
+            background: none;
+            font-size: 16px;
+            padding: 0 15px;
+            margin: -1px;
+            background: #f03c02;
+            color: #fff;
+            transition: 0.3s;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .search-form form button:hover {
+            background: #fd5c28;
+        }
+
+        .categories ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .categories ul li+li {
+            padding-top: 10px;
+        }
+
+        .categories ul a {
+            color: #745f56;
+        }
+
+        .categories ul a:hover {
+            color: #f03c02;
+            text-decoration: none;
+        }
+
+        .categories ul a span {
+            padding-left: 5px;
+            color: #9c847b;
+            font-size: 14px;
+        }
+
+        .block {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #ebe6e4;
+            background: #faf9f8;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .icon {
+            position: absolute;
+            top: -10px;
+            left: calc(50% - 36px);
+            transition: 0.2s;
+            border-radius: 50%;
+            border: 6px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            width: 72px;
+            height: 72px;
+            background: #f03c02;
+        }
+
+        .icon i {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .block h4 {
+            color: #343a40;
+        }
+
+        .block:hover .icon {
+            background: #fff;
+            border: 2px solid #f03c02;
+        }
+
+        .block:hover .icon i {
+            color: #f03c02;
+        }
+
+        .block:hover h4 {
+            color: #f03c02;
+        }
+
+        .recentposts img {
+            width: 80px;
+            float: left;
+        }
+        .blog .sidebar .sidebar-item {
+            margin-bottom: 30px;
+        }
+        .recentposts h4 {
+            font-size: 15px;
+            margin-left: 95px;
+            font-weight: bold;
+        }
+
+        .recentposts h4 a {
+            color: black;
+        }
+
+        .recentposts h4 a:hover {
+            color: #f03c02;
+            text-decoration: none;
+        }
+
+        .recentposts time {
+            display: block;
+            margin-left: 95px;
+            font-style: italic;
+            font-size: 14px;
+            color: #9c847b;
+        }
+
+        .tags {
+            margin-bottom: -10px;
+        }
+
+        .tags ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tags ul li {
+            display: inline-block;
+        }
+
+        .tags ul a {
+            color: #745f56;
+            font-size: 14px;
+            padding: 6px 14px;
+            margin: 0 6px 8px 0;
+            border: 1px solid #ded5d2;
+            display: inline-block;
+            transition: 0.3s;
+            border-radius: 4px;
+        }
+
+        .tags ul a:hover {
+            color: #fff;
+            border: 1px solid #f03c02;
+            background: #f03c02;
+            text-decoration: none;
+        }
+
+        .tags ul a span {
+            padding-left: 5px;
+            color: #c8bab5;
+            font-size: 14px;
+        }
+
+        .buynowbtn {
+            border-radius: 3px;
+            color: rgb(160, 160, 160);
+            padding: 10px 30px 10px 30px;
+            background-color: transparent;
+            border: 1px solid rgb(163, 163, 163);
+        }
+
+        .buynowbtn:hover {
+            border: 1px solid #f03c02;
+            color: #f03c02;
+        }
+
+        .buynowbtna {
+            border-radius: 3px;
+            color: white;
+            padding: 10px 30px 10px 30px;
+            background-color: transparent;
+            border: 1px solid rgb(163, 163, 163);
+        }
+
+        .buynowbtna:hover {
+            border: 1px solid rgb(163, 163, 163);
+            background-color: white;
+            color: #f03c02;
+        }
+
+        .ulUO li {
+            list-style-type: none;
+            margin-bottom: 15px;
+        }
+
+        .ulUO li a {
+            text-decoration: none;
+            color: rgb(180, 180, 180);
+        }
+
+        .ulUO li a:hover {
+            text-decoration: none;
+            color: #f03c02;
+        }
